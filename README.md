@@ -1,6 +1,6 @@
 # My minimal CV webpage
 
-A static CV webpage that I host at [sniel.id.au](http://www.sniel.id.au).  
+A static CV webpage that I host at http://shaunnielsen.com.  
 
 The design is minimal, and provides the exact same readability with and without
 CSS. It's simply a summary, image, and some unordered lists.  
