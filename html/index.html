@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body style="visibility: hidden;">
     <!-- header -->
     <header class="w3-container w3-center w3-blue-grey">
         <h1>Shaun Nielsen</h1>
@@ -36,7 +36,7 @@
         </p>
     </summary>
 
-    <div class="w3-container">
+    <div class="w3-container profile-img">
         <div class="w3-card-4">
             <img src="profile.jpg" alt="profile_picture" style="width: 100%;">
         </div>
@@ -50,27 +50,28 @@
         <h3>What I do</h3>
 
         <ul>
+            <li class="li-bold">Data Science</li>
+            <ul>
+                <li>Data integration and engineering</li>
+                <li>Understanding and application of Information Technology</li>
+                <li>DevOps and project managment</li>
+            </ul>
             <li class="li-bold">Applied Biostatistics</li>
             <ul>
                 <li>Experimental design and hypothesis testing</li>
                 <li>Generalised linear models</li>
                 <li>Statistical learning</li>
             </ul>
-            <li class="li-bold">Data Science</li>
-            <ul>
-                <li>Data wrangling</li>
-                <li>Data visualisation</li>
-                <li>Database communication</li>
-            </ul>
             <li class="li-bold">R statistical computing and RStudio</li>
             <ul>
+                <li>Data pipelines</li>
                 <li>R Markdown, Flexdashboard, Shiny</li>
                 <li>Package development</li>
             </ul>
             <li class="li-bold">Frontend web development</li>
             <ul>
-                <li>HTML5, CCS3, ECMA6 (JavaScript)</li>
-                <li>JQuery, plotlyJS, chartJS, leafletJS</li>
+                <li>HTML5, CCS3, JavaScript</li>
+                <li>Data visualisation - D3, plotlyJS, leaflet</li>
             </ul>
             <li class="li-bold">Linux server</li>
             <ul>
@@ -78,6 +79,9 @@
                 <li>Bioinformatics</li>
             </ul>
             <li class="li-bold">SAS and SAS Enterprise Guide</li>
+            <ul>
+                <li>Data pipelines</li>
+            </ul>
         </ul>
     </article>
 
@@ -119,7 +123,7 @@
             <li class="li-bold">Master of biostatistics</li>
             <ul>
                 <li>University of Sydney</li>
-                <li>2018 - current</li>
+                <li>2018 - 2022</li>
             </ul>
             <li class="li-bold">Doctor of Philosophy (PhD)</li>
             <ul>
@@ -134,7 +138,7 @@
         </ul>
     </article>
     <!-- detailed interests -->
-    
+
     <!--hr class="hr-break">
     <article class="w3-container">
         <h3>Detailed interests</h3>
@@ -183,6 +187,12 @@
             <li><a href='./shiny' class='li-link'>Shiny</a></li>
         </ul>
     </footer>
+
+    <script>
+        window.onload = function () {
+            document.body.style.visibility = 'visible'
+        }
+    </script>
 </body>
 
 </html>
