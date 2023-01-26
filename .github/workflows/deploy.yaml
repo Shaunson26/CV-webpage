@@ -1,15 +1,14 @@
 name: Deploy to server
 
 on:
-  #push:
-  #  branches: [main, master]
-  pull_request:
+  push:
     branches: [main, master]
-    types: [closed]
+  #pull_request:
+  #  branches: [main, master]
+  #  types: [closed]
 
 jobs:
-  pull_if_merged:
-    #if: github.event.pull_request.merged == true
+  deploy:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
