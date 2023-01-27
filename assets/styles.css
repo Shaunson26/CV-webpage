@@ -88,6 +88,26 @@ ul>ul {
     border-top: 1px solid lightgrey;
 }
 
+.ul-inline-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-inline-top>li {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0;
+}
+
+.ul-inline-top > li > a {
+    display: block;
+    padding: 4px;
+}
+
 .ul-inline {
     display: flex;
     flex-direction: row;
@@ -100,12 +120,18 @@ ul>ul {
 }
 
 @media only screen and (max-width: 475px) {
+
+    .ul-inline-top {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     .ul-inline {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        padding-top:16px;
+        padding-top:2px;
     }
 
     .ul-inline > li {
