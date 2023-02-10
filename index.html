@@ -15,9 +15,9 @@
     <meta property="og:image" content="https://shaunnielsen.com/metaicon.png">
 </head>
 
-<body style="visibility: hidden;">
+<body style="visibility: hidden;" class="w3-theme-l5">
     <!-- header -->
-    <header class="w3-container w3-center w3-blue-grey">
+    <header class="w3-container w3-center w3-theme-d3">
         <h1>Shaun Nielsen</h1>
     </header>
     <!-- summary + image -->
@@ -39,30 +39,32 @@
         <p>I also just started a <a href="https://www.shaunnielsen.com/blog" target="_blank" class='a-work'>blog!</a>
         </p>
 
-        <div class="w3-container w3-blue-grey" style="padding:4px;">
-                <ul class='ul-inline-top'>
-                    <li><a class="w3-hover-light-grey li-link"
-                            href='https://scholar.google.com.au/citations?hl=en&user=FqvyheEAAAAJ&view_op=list_works&gmla=AJsN-F6VCjIoAaWKQd1vab1fpmevEtF_yefpYdSqqhhJPNl4bK7EC8HtfoQBbexzP3VR3RIt-8cnyHosG3kDDJxfI2LT5oc3T5-zhflv6tJQTC7tUAoZ95QBJn_q1mOprp-OLcnjTGv3k3Utf0vwaN8dxg4vvrhLrsoS_OmFu3MFAASyriNeedE'
-                            target="_blank">
-                            <!--i class="fa fa-google fa-lg"></i-->GoogleScholar
-                        </a></li>
-                    <li><a class="w3-hover-light-grey li-link" href="https://www.linkedin.com/in/shaun-nielsen-bb380a75/" target="_blank">
-                            <!--i class="fa fa-linkedin fa-lg"></i-->LinkedIn
-                        </a>
-                    <li><a class="w3-hover-light-grey li-link" href="https://github.com/Shaunson26" target="_blank">
-                            <!--i class="fa fa-github fa-lg"></i-->GitHub
-                        </a>
-                    <li><a class="w3-hover-light-grey li-link" href='https://codepen.io/Shaunson26/' target="_blank" >
-                            <!--i class="fa fa-codepen fa-lg"></i-->CodePen
-                        </a></li>
-                    <li><a class="w3-hover-light-grey li-link" href='https://rpubs.com/Shaunson26' target="_blank" >RPubs</a></li>
-                    <li><a class="w3-hover-light-grey li-link" href='/shiny/' target="_blank" >Shiny</a></li>
-                </ul>
-    
+        <div class="w3-container w3-theme-d4" style="padding:4px;">
+            <ul class='ul-inline-top'>
+                <li><a class="w3-hover-theme li-link" href="https://github.com/Shaunson26" target="_blank">
+                        <!--i class="fa fa-github fa-lg"></i-->GitHub
+                    </a>
+                <li><a class="w3-hover-theme li-link" href='shiny/' target="_blank">Shiny</a></li>
+                <li><a class="w3-hover-theme li-link" href='https://codepen.io/Shaunson26/' target="_blank">
+                        <!--i class="fa fa-codepen fa-lg"></i-->CodePen
+                    </a></li>
+                <li><a class="w3-hover-theme li-link" href='https://rpubs.com/Shaunson26' target="_blank">RPubs</a>
+                </li>
+                <li><a class="w3-hover-theme li-link"
+                        href='https://scholar.google.com.au/citations?hl=en&user=FqvyheEAAAAJ&view_op=list_works&gmla=AJsN-F6VCjIoAaWKQd1vab1fpmevEtF_yefpYdSqqhhJPNl4bK7EC8HtfoQBbexzP3VR3RIt-8cnyHosG3kDDJxfI2LT5oc3T5-zhflv6tJQTC7tUAoZ95QBJn_q1mOprp-OLcnjTGv3k3Utf0vwaN8dxg4vvrhLrsoS_OmFu3MFAASyriNeedE'
+                        target="_blank">
+                        <!--i class="fa fa-google fa-lg"></i-->GoogleScholar
+                    </a></li>
+                <li><a class="w3-hover-theme li-link" href="https://www.linkedin.com/in/shaun-nielsen-bb380a75/"
+                        target="_blank">
+                        <!--i class="fa fa-linkedin fa-lg"></i-->LinkedIn
+                    </a>
+            </ul>
+
         </div>
     </summary>
     <div class="w3-container profile-img">
-        <div class="w3-card-4">
+        <div class="w3-card-4" id="profile-img">
             <img src="assets/profile.jpg" alt="profile_picture" style="width: 100%;">
         </div>
     </div>
@@ -92,7 +94,7 @@
             <li class="li-bold">Frontend web development</li>
             <ul>
                 <li>HTML5, CCS3, JavaScript</li>
-                <li>Data visualisation - D3, plotlyJS, leaflet</li>
+                <li>Data visualisation - D3, plotly, leaflet, chartjs</li>
             </ul>
             <li class="li-bold">Linux server</li>
             <ul>
@@ -110,23 +112,25 @@
     <article class="w3-container">
         <h3>Where I've worked</h3>
         <ul>
-            <li class="li-bold">NSW Health</li>
+            <li class="li-bold">NSW Health, Australia<span class="li-date">2018, 2019-2022</span></li>
             <ul>
+                <li><a href="https://www.health.nsw.gov.au/about/ministry/Pages/structure.aspx">
+                    Public Health Response Branch</a></li>
                 <li><a href="https://www.health.nsw.gov.au/epidemiology/Pages/default.aspx">
                         Centre for Epidemiology and Evidence</a></li>
-                <li>2018, 2019 - current</li>
+                <li><a href="https://www.health.nsw.gov.au/training/botp/Pages/default.aspx">
+                        NSW Health Biostatistics Training Program</a></li>
             </ul>
-            <li class="li-bold">Lancaster University, UK</li>
+            <li class="li-bold">Lancaster University, UK <span class="li-date">2018 - 2019</span></li>
             <ul>
                 <li><a href="https://www.lancaster.ac.uk/lec/">
                         The Lancaster Environmental Centre</a></li>
-                <li>2018 - 2019</li>
             </ul>
-            <li class="li-bold">University of NSW</li>
+            <li class="li-bold">University of NSW, Australia<span class="li-date">2013 - 2017</span></li>
             <ul>
                 <li><a href="https://www.cmsi.unsw.edu.au/">
                         Centre for Marine Bio-innovation</a></li>
-                <li>2013 - 2017</li>
+
             </ul>
         </ul>
     </article>
@@ -140,7 +144,12 @@
                 <li>University of Sydney</li>
                 <li>2018 - 2022</li>
             </ul>
-            <li class="li-bold">Doctor of Philosophy (PhD)</li>
+            <li class="li-bold">NSW Health Biostatistics Training Program</li>
+            <ul>
+                <li>NSW Health</li>
+                <li>2018 - 2021</li>
+            </ul>
+            <li class="li-bold">Doctor of Philosophy (PhD) in Biological Science</li>
             <ul>
                 <li>University of NSW</li>
                 <li>2008 - 2013</li>
@@ -154,28 +163,10 @@
     </article>
     <hr class="hr-break" style="border-color: white;">
     <!-- footer -->
-    <footer class="w3-container w3-blue-grey w3-padding-16">
+    <footer class="w3-container w3-theme-d3 w3-padding-16">
         <div class="w3-container w3-center a-email">
-            <a href="#" target="_blank">shaun.nielsen at gmail.com</a>
+            <a href="#" target="_blank">shaunson26 at gmail.com</a>
         </div>
-
-        <ul class='ul-inline'>
-            <li><a href='https://scholar.google.com.au/citations?hl=en&user=FqvyheEAAAAJ&view_op=list_works&gmla=AJsN-F6VCjIoAaWKQd1vab1fpmevEtF_yefpYdSqqhhJPNl4bK7EC8HtfoQBbexzP3VR3RIt-8cnyHosG3kDDJxfI2LT5oc3T5-zhflv6tJQTC7tUAoZ95QBJn_q1mOprp-OLcnjTGv3k3Utf0vwaN8dxg4vvrhLrsoS_OmFu3MFAASyriNeedE'
-                    target="_blank" class="li-link">
-                    <!--i class="fa fa-google fa-lg"></i-->GoogleScholar
-                </a></li>
-            <li><a href="https://www.linkedin.com/in/shaun-nielsen-bb380a75/" target="_blank" class='li-link'>
-                    <!--i class="fa fa-linkedin fa-lg"></i-->LinkedIn
-                </a>
-            <li><a href="https://github.com/Shaunson26" target="_blank" class='li-link'>
-                    <!--i class="fa fa-github fa-lg"></i-->GitHub
-                </a>
-            <li><a href='https://codepen.io/Shaunson26/' target="_blank" class='li-link'>
-                    <!--i class="fa fa-codepen fa-lg"></i-->CodePen
-                </a></li>
-            <li><a href='https://rpubs.com/Shaunson26' target="_blank" class='li-link'>RPubs</a></li>
-            <li><a href='/shiny/' target="_blank" class='li-link'>Shiny</a></li>
-        </ul>
     </footer>
 
     <script>
